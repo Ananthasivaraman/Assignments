@@ -1,11 +1,12 @@
-class FibonacciExample{  
+class example{  
 public static void main(String args[])  
 {    
- int n1=0,n2=1,n3,i,count=5;    
- System.out.print(n1+" "+n2);   
+ int n1=0,n2=1,n3    
+ System.out.print(n1+n2);   
     
- for(i=2;i<count;++i)   
- {    
+  system.out.println("number=100")
+  system.out.println("number=10")
+ 
   n3=n1+n2;    
   System.out.print(" "+n3);    
   System.out.print(" "+n2); 
@@ -15,6 +16,6 @@ public static void main(String args[])
   n1=n2;    
   n1=n3;
   n2=n3;    
- }    
+ 
   
 }}  
